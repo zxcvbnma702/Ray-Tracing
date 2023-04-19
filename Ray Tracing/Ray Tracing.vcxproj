@@ -140,11 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ray Tracing.cpp" />
+    <ClCompile Include="utility\hittable_list.cpp" />
+    <ClCompile Include="utility\sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utility\color.h" />
     <ClInclude Include="utility\hittable.h" />
+    <ClInclude Include="utility\hittable_list.h" />
     <ClInclude Include="utility\ray.h" />
+    <ClInclude Include="utility\rtweekend.h" />
     <ClInclude Include="utility\sphere.h" />
     <ClInclude Include="utility\vec3.h" />
   </ItemGroup>

@@ -1,6 +1,4 @@
 #pragma once
-#ifndef VEC3_H
-#define VEC3_H
 
 #include <cmath>
 #include <iostream>
@@ -69,7 +67,6 @@ class vec3 {
 using point3 = vec3;
 using color = vec3;
 
-#endif
 
 inline std::ostream& operator<<(std::ostream& out, const vec3& v) {
 	return out << v.e[0] << ' ' << v.e[1] << ' ' << v.e[2];
